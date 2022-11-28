@@ -1,0 +1,22 @@
+
+.nav{
+    border: 1px solid ;
+    width: 18em;
+display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10%;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+@media screen  and (max-width: 600px){
+.nav{
+    margin: 0;
+
+}
+}

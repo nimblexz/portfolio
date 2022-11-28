@@ -1,0 +1,25 @@
+.hiring{
+    height: 35vh;
+    background-color: #ffa754;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hiringCont{
+    width: 80%;
+    height: 55%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    background-color: #c2a6e5;
+    margin: 0;
+}
+.foot{
+    background-color: #c2a6e5;
+    margin: 0;
+}
