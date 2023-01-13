@@ -5,7 +5,7 @@ export function Hiring() {
         <div className={s.hiring}>
             <div className={s.hiringCont}>
                 <h2 className={s.title}>I am considering options for remote work</h2>
-                <h2 className={s.foot}>recruit me</h2>
+                <a href={''} className={s.foot}>recruit me</a>
             </div>
         </div>
     )

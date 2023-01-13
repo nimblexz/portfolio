@@ -10,7 +10,7 @@ export function Contacts() {
                     <input value={'input'} className={s.input}/>
                     <textarea value={'taxtarea'} className={s.textarea}/>
                 </form>
-                <h2 className={s.send}>Send</h2>
+                <a href={'e'} className={s.send}>Send</a>
 
             </div>
         </div>
