@@ -1,10 +1,11 @@
 .header{
     height: 9vh;
-    background-color: #c2a6e5;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
 }
 @media screen  and (max-width: 600px){
     .header{

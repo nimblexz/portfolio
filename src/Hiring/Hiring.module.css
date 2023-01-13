@@ -1,6 +1,6 @@
 .hiring{
     height: 35vh;
-    background-color: #ffa754;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,10 +16,14 @@
     align-items: center;
 }
 .title{
-    background-color: #c2a6e5;
+    color: #fff;
     margin: 0;
+    font-family: '-apple-system', sans-serif;
+    font-size: 60px;
 }
 .foot{
-    background-color: #c2a6e5;
+    color: #fff;
     margin: 0;
+    font-family: '-apple-system', sans-serif;
+    font-size: 35px;
 }
