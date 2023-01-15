@@ -1,4 +1,4 @@
-import s from './SkillsComponent.module.css'
+import s from './SkillsComponent.module.scss'
 
 type SkillsComponentPropsType = {
     title: string
@@ -12,8 +12,10 @@ export function SkillsComponent(props: SkillsComponentPropsType) {
             <div className={s.imageTitle} style={{backgroundImage: `url(${props.img})`}}>
                 <div className={s.image}></div>
             </div>
-            <div className={s.skillData}><h3 className={s.title}>{props.title}</h3>
-                <span className={s.description}>{props.description}</span></div>
+            <div className={s.skillData}>
+                <h3 className={s.title}>{props.title}</h3>
+                <span className={s.description}>{props.description}</span>
+            </div>
         </div>
     )
 }
