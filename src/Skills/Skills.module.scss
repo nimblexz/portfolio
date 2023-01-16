@@ -12,11 +12,17 @@
   @media screen and (max-width: 600px) {
     height: fit-content;
   }
+  @media screen and  (max-height: 500px){
+    height: fit-content;
+padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
 
   .skillsCont {
     width: 80%;
     height: 75%;
-    border: 1px solid;
+    border: 1px solid ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,6 +34,9 @@
     @media screen and (max-width: 600px) {
       margin-top: 27%;
       margin-bottom: 27%;
+    }
+    @media screen and  (max-height: 500px){
+      justify-content: flex-start;
     }
 
     .title {
@@ -41,6 +50,9 @@
       @media screen and (max-width: 600px){
         font-size: 40px;
       }
+      @media screen and  (max-height: 500px){
+        font-size: 30px;
+      }
     }
 
     .skillsComponentCont {
@@ -50,7 +62,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      border: 1px solid;
+      border: 1px solid ;
       @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px) {
         flex-direction: row;
         flex-wrap: wrap;
@@ -62,6 +74,9 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+      }
+      @media screen and  (max-height: 500px){
+        align-items: flex-start;
       }
     }
   }

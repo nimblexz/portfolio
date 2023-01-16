@@ -12,6 +12,11 @@
   @media screen and (max-width: 600px) {
     height: fit-content
   }
+  @media screen and  (max-height: 500px){
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 
   .projectsCont {
     width: 80%;
@@ -29,6 +34,9 @@
       margin-bottom: 27%;
       margin-top: 27%;
     }
+    @media screen and  (max-height: 500px){
+      justify-content: flex-start;
+    }
 
     .title {
       color: #fff;
@@ -40,6 +48,9 @@
       letter-spacing: 2px;
       @media screen and (max-width: 600px){
         font-size: 40px;
+      }
+      @media screen and  (max-height: 500px){
+        font-size: 30px;
       }
     }
 
@@ -62,6 +73,9 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+      }
+      @media screen and  (max-height: 500px){
+        align-items: flex-start;
       }
     }
   }

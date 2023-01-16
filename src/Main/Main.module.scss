@@ -8,8 +8,6 @@
   align-items: center;
   border: 1px solid;
   flex-wrap: wrap;
-  @media screen and (max-width: 600px){
-  }
   .mainCont {
     width: 80%;
     height: 75%;
@@ -44,6 +42,7 @@
         height: 60%;
       }
 
+
       .helloIAm {
         color: #fff;
         text-shadow: 8px 8px #222;
@@ -66,11 +65,19 @@
           line-height: 40px;
           text-shadow: 4px 4px #222
         }
+        @media screen and  (max-height: 500px){
+          font-size: 50px;
+          line-height: 50px;
+          text-shadow: 4px 4px #222
+        }
 
         .point {
           color: #ffb400;
           text-shadow: 8px 8px #222;
           @media screen and (max-width: 600px){
+            text-shadow: 4px 4px #222
+          }
+          @media screen and  (max-height: 500px){
             text-shadow: 4px 4px #222
           }
         }
@@ -92,7 +99,11 @@
             font-size: 10px;
             padding-left: 5px;
             text-shadow: 1px 1px #222
-
+          }
+          @media screen and  (max-height: 500px){
+            font-size: 10px;
+            text-shadow: 2px 2px #222;
+            padding-left: 3px;
           }
         }
       }
