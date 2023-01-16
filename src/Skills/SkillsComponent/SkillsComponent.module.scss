@@ -10,14 +10,14 @@
     width: 80%;
     height: 420px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 40px;
   }
   @media screen and (max-width: 600px){
-    width: 260px;
-    height: 300px;
+    width: 90%;
+    height:fit-content;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -30,11 +30,16 @@
     align-items: center;
     border: 1px solid;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     border-radius: 20px 20px 0 0;
+    @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px){
+      height: 45%;
+    }
+    @media screen and (max-width: 600px){
+      height: 120px;
+    }
     .image {
-      width: 30%;
-      height: 30%;
+
     }
   }
   .skillData {

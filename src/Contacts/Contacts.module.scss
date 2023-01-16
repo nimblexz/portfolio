@@ -24,6 +24,9 @@
       line-height: 65px;
       font-weight: 700;
       letter-spacing: 2px;
+      @media screen and (max-width: 600px){
+        font-size: 40px;
+      }
     }
 
     .form {
@@ -32,6 +35,15 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      @media screen and (min-width: 768px) and (max-width: 1400px) and (max-height: 900px){
+        width: 70%;
+      }
+      @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px){
+        width: 90%;
+      }
+      @media screen and (max-width: 600px){
+        width: 100%;
+      }
 
       .input {
         height: 15%;
@@ -51,9 +63,18 @@
       font-weight: 700;
       letter-spacing: 2px;
       text-decoration: none;
-    }
-    .send:hover{
-      color: #ffb400;
+      @media screen and (min-width: 768px) and (max-width: 1400px) and (max-height: 900px){
+        font-size: 40px;
+      }
+      @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px){
+        font-size: 33px;
+      }
+      @media screen and (max-width: 600px){
+        font-size: 15px;
+      }
+      &:hover{
+        color: #ffb400;
+      }
     }
   }
 }

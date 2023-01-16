@@ -10,7 +10,7 @@ export function Skills() {
                 <h2 className={s.title}>My Skills</h2>
                 <div className={s.skillsComponentCont}>
                     <SkillsComponent title={'REACT'} description={'react'} img={react}/>
-                    <SkillsComponent title={'REDUX'} description={'111111111111111111111111111111111111111111111111111111111111111111111111111111111111'} img={redux}/>
+                    <SkillsComponent title={'REDUX'} description={'1111111111111111111111111111111111111111111111111111111111111'} img={redux}/>
                     <SkillsComponent title={'JS'} description={'js'} img={js}/>
                 </div>
             </div>

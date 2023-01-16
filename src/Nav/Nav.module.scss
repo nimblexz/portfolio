@@ -13,10 +13,10 @@
   a {
     text-decoration: none;
     color: #fff;
-  }
 
-  a:hover {
-    color: #ffb400;
+    &:hover {
+      color: #ffb400;
+    }
   }
 }
 

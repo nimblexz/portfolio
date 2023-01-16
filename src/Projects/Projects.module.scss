@@ -26,8 +26,8 @@
       margin-top: 16%;
     }
     @media screen and (max-width: 600px) {
-      margin-bottom: 16%;
-      margin-top: 16%;
+      margin-bottom: 27%;
+      margin-top: 27%;
     }
 
     .title {
@@ -38,6 +38,9 @@
       line-height: 65px;
       font-weight: 700;
       letter-spacing: 2px;
+      @media screen and (max-width: 600px){
+        font-size: 40px;
+      }
     }
 
     .projectsCompCont {
