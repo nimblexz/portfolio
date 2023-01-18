@@ -1,10 +1,11 @@
 import s from "./Contacts.module.scss";
+import {Title} from "../Title/Title";
 
 export function Contacts() {
     return (
         <div className={s.contacts}>
             <div className={s.contactsCont}>
-                <h2 className={s.title}>Contacts</h2>
+                <Title title={'Contacts'}/>
                 <form className={s.form}>
                     <input value={'input'} className={s.input}/>
                     <input value={'input'} className={s.input}/>
