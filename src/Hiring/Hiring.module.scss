@@ -7,7 +7,8 @@
   align-items: center;
   border: 1px solid;
   @media screen and (max-height: 500px) {
-    height: 60vh;
+    height: fit-content;
+    padding: 60px 0;
   }
   @media screen and (max-width: 600px) {
     padding: 80px 0;
@@ -22,7 +23,6 @@
     align-items: center;
 
 
-
     .foot {
       color: #ffb400;
       margin: 0;
@@ -34,9 +34,11 @@
       text-decoration: none;
       @media screen and (min-width: 768px) and (max-width: 1400px) and (max-height: 900px) {
         font-size: 40px;
+        text-align: center;
       }
       @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px) {
         font-size: 33px;
+        text-align: center;
       }
       @media screen and (max-width: 600px) {
         font-size: 40px;
@@ -44,6 +46,7 @@
       }
       @media screen and (max-height: 500px) {
         font-size: 15px;
+        text-align: center;
 
 
       }

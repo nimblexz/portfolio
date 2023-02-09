@@ -15,8 +15,7 @@
   }
   @media screen and  (max-height: 500px){
     height: fit-content;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 60px 0;
   }
 
   .projectsCont {
@@ -26,10 +25,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px) {
-      margin-bottom: 16%;
-      margin-top: 16%;
-    }
 
     @media screen and  (max-height: 500px){
       justify-content: flex-start;
@@ -44,6 +39,9 @@
       justify-content: space-between;
       border: 1px solid;
       gap: 20px;
+      @media screen and (min-width: 700px) and (max-width: 1400px) and (max-height: 900px){
+        justify-content: center;
+      }
       @media screen and (min-height: 600px) and (min-width: 768px) and (max-width: 1300px) {
         flex-direction: row;
         flex-wrap: wrap;

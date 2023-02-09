@@ -9,6 +9,9 @@
   @media screen and (max-width: 600px){
     padding-top: 80px;
   }
+  @media screen and (max-height: 500px) {
+    padding-top: 60px;
+  }
   .footerCont {
     width: 80%;
     border: 1px solid;
