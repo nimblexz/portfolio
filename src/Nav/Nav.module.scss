@@ -10,6 +10,14 @@
   font-size: 18px;
   font-weight: 500;
 
+  .active {
+    color: #ffb400;
+
+    &:hover {
+      color: #ffb400;
+    }
+  }
+
   a {
     text-decoration: none;
     color: #fff;

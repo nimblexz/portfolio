@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.scss';
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
@@ -11,7 +11,7 @@ import {Footer} from "./Footer/Footer";
 
 function App() {
     return (
-        <div className={'App'}>
+        <div className={'App'} id='home' >
             <Header />
             <Main/>
             <Skills/>

@@ -8,7 +8,7 @@ export function ProjectComponent(props:ProjectComponentPropsType) {
     return (
         <div className={s.projectComponent}>
             <div className={s.projectImg} style={{backgroundImage:`url(${props.img})`}}>
-                <a href={''} className={s.view}>View</a>
+                <a href={'fghfh'} className={s.view}>View</a>
             </div>
             <div className={s.projectData}>
                 <h3 className={s.name}>{props.title}</h3>

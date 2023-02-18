@@ -13,7 +13,7 @@
     padding: 80px 0;
 
   }
-  @media screen and  (max-height: 500px){
+  @media screen and (max-height: 500px) {
     height: fit-content;
     padding: 60px 0;
   }
@@ -26,12 +26,11 @@
     justify-content: space-between;
     align-items: center;
 
-    @media screen and  (max-height: 500px){
+    @media screen and (max-height: 500px) {
       justify-content: flex-start;
     }
 
-
-    .projectsCompCont {
+    .slide {
       width: 100%;
       flex-wrap: wrap;
       display: flex;
@@ -39,24 +38,34 @@
       justify-content: space-between;
       border: 1px solid;
       gap: 20px;
-      @media screen and (min-width: 700px) and (max-width: 1400px) and (max-height: 900px){
-        justify-content: center;
-      }
-      @media screen and (min-height: 600px) and (min-width: 768px) and (max-width: 1300px) {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
 
-      }
-      @media screen and (max-width: 600px) {
-        flex-direction: row;
+      .projectsCompCont {
+        width: 100%;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-      }
-      @media screen and  (max-height: 500px){
-        align-items: flex-start;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid;
+        gap: 20px;
+        @media screen and (min-width: 700px) and (max-width: 1400px) and (max-height: 900px) {
+          justify-content: center;
+        }
+        @media screen and (min-height: 600px) and (min-width: 768px) and (max-width: 1300px) {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+
+        }
+        @media screen and (max-width: 600px) {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+        @media screen and (max-height: 500px) {
+          align-items: flex-start;
+          justify-content: center;
+        }
       }
     }
   }
