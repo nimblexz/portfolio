@@ -11,7 +11,7 @@ export function ParticlesComponent() {
     }, []);
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
+
     }, []);
     return <Particles className={s.particles}
                       id="tsparticles"
@@ -29,7 +29,7 @@ export function ParticlesComponent() {
                               events: {
                                   onClick: {
                                       enable: true,
-                                      mode: "push",
+                                      mode: "pause",
                                   },
                                   onHover: {
                                       enable: true,

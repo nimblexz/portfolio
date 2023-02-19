@@ -1,15 +1,15 @@
 import s from './Main.module.scss'
 import photo from './../photo/photo_2022-06-15_15-43-19 (2).jpg'
 import {ParticlesComponent} from "../components/ParticlesComponent/ParticlesComponent";
-import {JackInTheBox} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt';
+import {JackInTheBox} from "react-awesome-reveal";
 
 export function Main() {
-    return (<JackInTheBox>
-            <div className={s.main}>
-                <ParticlesComponent/>
-
+    return (
+        <div className={s.main}>
+            <ParticlesComponent/>
+            <JackInTheBox className={s.slide}>
                 <div className={s.mainCont}>
                     <div className={s.hello}>
                     <span className={s.helloIAm}>Hello
@@ -20,13 +20,11 @@ export function Main() {
                     </span>
                         <span className={s.helloIAm}>Emil</span>
                     </div>
-                        <Tilt className={s.tilt} tiltMaxAngleX={10} tiltMaxAngleY={10} >
-                            <img src={photo} className={s.photo} alt='avatar'/>
-                        </Tilt>
-
+                    <Tilt className={s.tilt} tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                        <img src={photo} className={s.photo} alt='avatar'/>
+                    </Tilt>
                 </div>
-
-            </div>
-        </JackInTheBox>
+            </JackInTheBox>
+        </div>
     )
 }

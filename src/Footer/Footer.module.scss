@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  border: 1px solid;
   padding-top: 150px;
   @media screen and (max-width: 600px){
     padding-top: 80px;
@@ -14,7 +13,6 @@
   }
   .footerCont {
     width: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,6 +39,11 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
+        box-sizing: border-box;
+        &:hover{
+          border: 1px solid rgba(255, 255, 255, 0.29);
+
+        }
         .icon{
           width: 100%;
         }

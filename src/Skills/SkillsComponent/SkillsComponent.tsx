@@ -4,13 +4,13 @@ type SkillsComponentPropsType = {
     title: string
     description: string
     img: string
+    backgroundSize?:string
 }
 
 export function SkillsComponent(props: SkillsComponentPropsType) {
     return (
         <div className={s.skillsComponent}>
-            <div className={s.imageTitle} style={{backgroundImage: `url(${props.img})`}}>
-                <div className={s.image}></div>
+            <div className={s.imageTitle} style={{backgroundImage: `url(${props.img})`,backgroundSize:props.backgroundSize}}>
             </div>
             <div className={s.skillData}>
                 <h3 className={s.title}>{props.title}</h3>

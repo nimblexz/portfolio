@@ -5,7 +5,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
   flex-wrap: wrap;
   position: relative;
   @media screen and (min-height: 800px) and (min-width: 850px) and (max-width: 1200px) {
@@ -22,11 +21,16 @@
     bottom: 0;
     opacity: 0.4;
   }
+.slide{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   .mainCont {
     position: absolute;
     width: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,17 +46,18 @@
     }
 
     .hello {
-      margin: 5%;
-      border: 1px solid;
+      margin-right: 15%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
       @media screen and (min-height: 800px) and (min-width: 768px) and (max-width: 1200px) {
+        margin-right: 0;
         width: 60%;
       }
       @media screen and (max-width: 600px) {
+        margin-right: 0;
         width: 80%;
       }
 
@@ -131,11 +136,10 @@
 
       .photo {
         width: 100%;
-        border: 1px solid;
         border-radius: 15px;
         background-color: #ffb400;
       }
     }
   }
-}
+}}
 
