@@ -7,20 +7,23 @@ import {useForm} from "react-hook-form";
 type FormData = {
     name: string
     eMail: string
-    message:string
+    message: string
 };
 
 export function Contacts() {
-    const {register, handleSubmit, formState: {errors}} = useForm<FormData>(
+    const {register, handleSubmit, reset, formState: {errors}} = useForm<FormData>(
         {
             defaultValues: {
                 name: '',
                 eMail: '',
-                message:''
+                message: ''
             }
         }
     );
-    const onSubmit = (data: FormData) => console.log(data);
+    const onSubmit = (data: FormData) => {
+        console.log(data)
+        reset()
+    }
 
 
     return (
@@ -35,7 +38,6 @@ export function Contacts() {
                         <Button title={'Send'} backgroundColor={'#0b0b0b'} isbutton={true}/>
                     </form>
                 </Slide>
-
 
 
             </div>
