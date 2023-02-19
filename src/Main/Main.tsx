@@ -7,7 +7,7 @@ import {JackInTheBox} from "react-awesome-reveal";
 
 export function Main() {
     return (
-        <div className={s.main}>
+        <div className={s.main} id={'home'}>
             <ParticlesComponent/>
             <JackInTheBox className={s.slide}>
                 <div className={s.mainCont}>

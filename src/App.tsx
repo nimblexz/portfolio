@@ -11,7 +11,7 @@ import {Footer} from "./Footer/Footer";
 
 function App() {
     return (
-        <div className={'App'} id='home' >
+        <div className={'App'}  >
             <Header />
             <Main/>
             <Skills/>
