@@ -10,7 +10,7 @@ export function Hiring() {
             <Slide className={s.slide}>
                 <div className={s.hiringCont}>
                     <Title title={'I am available for work'}/>
-                    <Button title={'Hire me'} backgroundColor={'#111111'}/>
+                    <Button  title={'Hire me'} backgroundColor={'#111111'} isbutton={false}/>
                 </div>
             </Slide>
         </div>

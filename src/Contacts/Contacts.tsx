@@ -32,7 +32,7 @@ export function Contacts() {
                         <input {...register("name")} className={s.input} placeholder={'name'}/>
                         <input {...register("eMail")} placeholder={'e-mail'} className={s.input}/>
                         <textarea {...register("message")} placeholder={'message'} className={s.textarea}/>
-                        <Button title={'Send'} backgroundColor={'#0b0b0b'}/>
+                        <Button title={'Send'} backgroundColor={'#0b0b0b'} isbutton={true}/>
                     </form>
                 </Slide>
 
