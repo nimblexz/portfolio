@@ -1,11 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c7c91352.css",
-    "main.js": "/portfolio/static/js/main.035c3394.js",
+    "main.css": "/portfolio/static/css/main.611dfe24.css",
+    "main.js": "/portfolio/static/js/main.320f0bd1.js",
     "static/media/socialnetwork.jpg": "/portfolio/static/media/socialnetwork.cd494e50f078ed418bb0.jpg",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.8bb5843a2171c29e17b3.jpg",
+    "static/media/cards.jpg": "/portfolio/static/media/cards.6ffcce8d7c3bbe38817a.jpg",
     "static/media/photo_2022-06-15_15-43-19 (2).jpg": "/portfolio/static/media/photo_2022-06-15_15-43-19 (2).039951e492003a2f1792.jpg",
     "static/media/react.jpg": "/portfolio/static/media/react.c9fbccf6e27e19f0cfce.jpg",
+    "static/media/storybook.png": "/portfolio/static/media/storybook.9aee134139fa937a9553.png",
+    "static/media/jest-logo.png": "/portfolio/static/media/jest-logo.6038d19a342a29a7b8cc.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.77062fed156b928b9de2.png",
+    "static/media/postman.jpg": "/portfolio/static/media/postman.c8a8256473884abf645b.jpg",
+    "static/media/react-hook-form.jpg": "/portfolio/static/media/react-hook-form.1c01b1afdd3e378c7ad9.jpg",
+    "static/media/git.jpeg": "/portfolio/static/media/git.87cdd7dbc178e90d99f0.jpeg",
+    "static/media/html.jpg": "/portfolio/static/media/html.1711fc93fef17d68b623.jpg",
     "static/media/redux.gif": "/portfolio/static/media/redux.a6e22bbe66b9755f0785.gif",
     "static/media/js.jpg": "/portfolio/static/media/js.7ed449e43e7265aef3ae.jpg",
     "static/media/codewars.svg": "/portfolio/static/media/codewars.8cb4193dc5c127df8ee1bdc8bb8364e1.svg",
@@ -13,11 +21,11 @@
     "static/media/github.svg": "/portfolio/static/media/github.c36d0391e0fd3da023403df5450f9d68.svg",
     "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.d32036e023ee7574bc705f27f6764a74.svg",
-    "main.c7c91352.css.map": "/portfolio/static/css/main.c7c91352.css.map",
-    "main.035c3394.js.map": "/portfolio/static/js/main.035c3394.js.map"
+    "main.611dfe24.css.map": "/portfolio/static/css/main.611dfe24.css.map",
+    "main.320f0bd1.js.map": "/portfolio/static/js/main.320f0bd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7c91352.css",
-    "static/js/main.035c3394.js"
+    "static/css/main.611dfe24.css",
+    "static/js/main.320f0bd1.js"
   ]
 }
