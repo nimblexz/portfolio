@@ -56,7 +56,7 @@
         &:-webkit-autofill:focus,
         &:-webkit-autofill:active {
           -webkit-box-shadow: 0 0 0 60px #111111 inset !important;
-          background-color: #ffb400 !important;
+          background-color: #111111 !important;
           background-clip: content-box !important;
           -webkit-text-fill-color: #fff;
         }
@@ -85,12 +85,16 @@
         font-family: 'Livvic', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        -webkit-box-shadow: 0 0 0 1000px #111111 inset;
-        -webkit-text-fill-color: #fff;
-
-        &::placeholder {
-          opacity: 0.5;
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill:active {
+          -webkit-box-shadow: 0 0 0 60px #111111 inset !important;
+          background-color: #111111 !important;
+          background-clip: content-box !important;
+          -webkit-text-fill-color: #fff;
         }
+
 
         &:hover {
           border: 1px solid rgba(134, 134, 134, 0.49);
