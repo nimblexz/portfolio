@@ -3,6 +3,7 @@ import {Title} from "../components/Title/Title";
 import {Button} from "../components/Button/Button";
 import {Slide} from "react-awesome-reveal";
 import {useForm} from "react-hook-form";
+import axios from "axios";
 
 type FormData = {
     name: string
@@ -21,7 +22,7 @@ export function Contacts() {
         }
     );
     const onSubmit = (data: FormData) => {
-        console.log(data)
+        axios.post('https://gmail-6gf19icax-hhfvbkm1973-gmailcom.vercel.app/send',data).then(()=>console.log('213')).catch((err)=>(console.log(err)))
         reset()
     }
 
