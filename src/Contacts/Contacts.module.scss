@@ -51,13 +51,14 @@
         font-family: 'Livvic', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        -webkit-box-shadow: 0 0 0 1000px #111111 inset;
-        -webkit-text-fill-color: #fff;
         &:-webkit-autofill,
         &:-webkit-autofill:hover,
         &:-webkit-autofill:focus,
         &:-webkit-autofill:active {
-          -webkit-box-shadow: 0 0 0 30px #111111 inset !important;
+          -webkit-box-shadow: 0 0 0 60px #111111 inset !important;
+          background-color: #ffb400 !important;
+          background-clip: content-box !important;
+          -webkit-text-fill-color: #fff;
         }
 
         &:focus {
@@ -65,9 +66,7 @@
 
         }
 
-        &::placeholder {
-          opacity: 0.5;
-        }
+
 
         &:hover {
           border: 1px solid rgba(134, 134, 134, 0.49);
