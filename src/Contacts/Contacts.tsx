@@ -34,7 +34,7 @@ export function Contacts() {
                 <Title title={'Contacts'}/>
                 <Slide className={s.slide} direction={"right"}>
                     <form className={s.form} onSubmit={handleSubmit(onSubmit)}>
-                        <input {...register("name", {required: 'Name required',minLength:{value:3,message:'Minimum of 3 symbols'}})} className={s.input}
+                        <input {...register("name", {setValueAs:value => value.trim(),required: 'Name required',minLength:{value:3,message:'Minimum of 3 symbols'}})} className={s.input}
                                placeholder={'name'} />
                         <div style={{
                             height: 30,
@@ -46,7 +46,7 @@ export function Contacts() {
                             height: 30,
                             color: 'red'
                         }}>{errors?.eMail && <>{errors?.eMail?.message || 'Incorrect E-mail'}</>}</div>
-                        <textarea {...register("message",{required: 'Message required',minLength:{value:10,message:'Minimum of 10 symbols'}})} placeholder={'message'}
+                        <textarea {...register("message",{required: 'Message required',setValueAs:value => value.trim(),minLength:{value:10,message:'Minimum of 10 symbols'}})} placeholder={'message'}
                                   className={s.textarea}/>
                         <div style={{
                             height: 30,
