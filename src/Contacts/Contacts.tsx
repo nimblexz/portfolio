@@ -23,7 +23,7 @@ export function Contacts() {
         }
     );
     const onSubmit = (data: FormData) => {
-        axios.post('https://gmail-6gf19icax-hhfvbkm1973-gmailcom.vercel.app/send', data).then(() => console.log('213')).catch((err) => (console.log(err)))
+        axios.post('https://gmail-6gf19icax-hhfvbkm1973-gmailcom.vercel.app/send', data).then(() => {}).catch((err) => (console.log(err)))
         reset()
     }
 
