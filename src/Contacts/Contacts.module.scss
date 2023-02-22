@@ -31,6 +31,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+
       @media screen and (min-width: 600px) and (max-width: 1400px) and (max-height: 900px) {
         width: 70%;
       }
@@ -40,7 +41,29 @@
       @media screen and (max-width: 600px) {
         width: 100%;
       }
-
+      .success{
+        width: 240px;
+        height: 48px;
+        background-color: #ffb400;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        top: 69%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        .sendMessage{
+          text-align: center;
+          color: #fff;
+          font-family: 'Livvic', sans-serif;
+          font-size: 18px;
+          line-height: 23px;
+          font-weight: 500;
+        }
+      }
       .input {
         margin-bottom: 10px;
         height: 25px;
