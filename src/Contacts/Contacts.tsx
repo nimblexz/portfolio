@@ -5,7 +5,7 @@ import {Slide} from "react-awesome-reveal";
 import {useForm} from "react-hook-form";
 import axios from "axios";
 import {useState} from "react";
-
+import 'animate.css';
 type FormData = {
     name: string
     eMail: string
@@ -32,9 +32,6 @@ export function Contacts() {
         setTimeout(() => {
             setSuccess(false)
         }, 3000)
-
-
-
 
     }
 
@@ -63,8 +60,10 @@ export function Contacts() {
                             height: 30,
                             color: 'red'
                         }}>{errors?.message && <>{errors?.message?.message || 'error'}</>}</div>
+
                         {success&&<div className={s.success}><h3 className={s.sendMessage}>The message was sent successfully</h3></div>}
                         <Button title={'Send'} backgroundColor={'#0b0b0b'} isbutton={true} disabled={!isValid}/>
+
                     </form>
                 </Slide>
 
