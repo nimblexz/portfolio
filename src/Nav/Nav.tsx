@@ -5,7 +5,7 @@ import {Link} from "react-scroll";
 export function Nav() {
     return (
         <div className={s.nav}>
-            <a  href={'https://drive.google.com/file/d/1MoSwQskZuYMQnAYv7xo3uE0diN8JBU2W/view?usp=share_link'} target={'_blank'}>My CV</a>
+            <a  href={'https://drive.google.com/file/d/1yUQ-te3Xi1P5xPOshVy4C2TkGc4l9hIA/view?usp=sharing'} target={'_blank'}>My CV</a>
             <Link href='' to='home' activeClass={s.active} spy={true} smooth={true} offset={1} duration={500}>Home</Link>
             <Link href='' to='skills' activeClass={s.active} spy={true} smooth={true} offset={1} duration={500}>Skills</Link>
             <Link href='' to='projects' activeClass={s.active} spy={true} smooth={true} offset={1} duration={500}>Projects</Link>
