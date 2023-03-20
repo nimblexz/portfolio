@@ -19,13 +19,7 @@
     justify-content: space-between;
     align-items: center;
 
-    .title {
-      color: rgba(255, 255, 255, .5);
-      margin: 0;
-      font-family: 'Livvic', sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-    }
+
 
     .footerDiv {
       width: 100%;
@@ -41,6 +35,9 @@
         height: 60px;
         border-radius: 50%;
         box-sizing: border-box;
+
+
+
 
 
         &:hover {
@@ -61,6 +58,12 @@
             width: 100%;
             justify-content: center;
             display: flex;
+            height: 100%;
+
+
+
+
+
 
             &:hover {
               width: 85%;
@@ -69,16 +72,21 @@
           ;
           }
         }
+
+
       }
 
-      .foot {
-        color: rgba(255, 255, 255, .5);
-        line-height: 32px;
-        margin: 0;
-        font-family: 'Livvic', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-      }
+
+
+    }
+
+    .foot {
+      color: #fff;
+      line-height: 32px;
+      margin:20px 0;
+      font-family: 'Livvic', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
     }
   }
 

@@ -20,14 +20,14 @@ export function Footer() {
                             <img src={linkedinicon} className={s.icon} alt='linkedin'/>
                         </a>
                     </div>
-                    <div className={s.div}>
+                    <div className={s.div} >
                         <a className={s.a} href='https://github.com/nimblexz' target={'_blank'}>
-                            <img className={s.icon} src={githubicon} alt='github'/>
+                            <img className={s.icon}  src={githubicon} alt='github'/>
                         </a>
                     </div>
                     <div className={s.div}>
                         <a className={s.a} href='https://www.codewars.com/users/nimblexz' target={'_blank'}>
-                            <img src={codewarsicon} className={s.icon} alt='codewars'/>
+                            <img className={s.icon}  src={codewarsicon} alt='github'/>
                         </a>
                     </div>
 
