@@ -62,7 +62,7 @@ export function Contacts() {
                         }}>{errors?.message && <>{errors?.message?.message || 'error'}</>}</div>
 
                         {success&&<div className={s.success}><h3 className={s.sendMessage}>The message was sent successfully</h3></div>}
-                        <Button title={'Send'} backgroundColor={'#0b0b0b'} isbutton={true} disabled={!isValid}/>
+                        <Button title={'Send'} backgroundColor={'#111111'} isbutton={true} disabled={!isValid}/>
 
                     </form>
                 </Slide>

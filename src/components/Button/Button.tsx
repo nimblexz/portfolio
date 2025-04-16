@@ -1,4 +1,5 @@
 import s from './Button.module.scss'
+// @ts-ignore
 import {Link} from "react-scroll";
 import React from "react";
 

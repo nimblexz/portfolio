@@ -33,7 +33,7 @@ export function Footer() {
 
                 </div>
                 <h2 className={s.foot}>©️
-                    2023 All rights reserved </h2>
+                    2025 All rights reserved </h2>
             </div>
         </div>
     )

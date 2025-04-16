@@ -1,6 +1,7 @@
 import s from './Main.module.scss'
 import photo from './../photo/photo_2022-06-15_15-43-19 (2).jpg'
 import {ParticlesComponent} from "../components/ParticlesComponent/ParticlesComponent";
+// @ts-ignore
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt';
 import {JackInTheBox} from "react-awesome-reveal";
